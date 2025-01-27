@@ -50,7 +50,7 @@ base_url_test = pytest.mark.parametrize(
         ("polygon", "mainnet", "polygon.blockscout.com"),
         ("polygon", "mainnet-fork", "polygon.blockscout.com"),
         # Filecoin
-        ("polygon", "mainnet", "filecoin.blockscout.com"),
+        ("filecoin", "mainnet", "filecoin.blockscout.com"),
     ],
 )
 
